@@ -1,0 +1,88 @@
+[11:49:14] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5.1+2-LTS; Microsoft Microsoft-16059580) on Windows 11 10.0 (amd64)
+[11:49:14] [ServerMain/INFO]: [bootstrap] Loading Purpur 26.3-2660-HEAD@a040e50 (2026-11-18T23:30:22Z) for Minecraft 26.3
+[11:49:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:49:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[11:49:15] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - CraftEngine (26.9.2)
+[11:49:15] [ServerMain/WARN]: [CraftEngine] translations/ru_ru.yml not exists, using en.yml as default locale.
+[11:49:17] [ServerMain/INFO]: [CraftEngine] Moonrise lifecycle chunk cache hooks installed
+[11:49:23] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[11:49:23] [ServerMain/INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[11:49:24] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 738,5ms
+[11:49:24] [ServerMain/INFO]: [CraftEngine] Initializing registries...
+[11:49:27] [Worker-Main-1/INFO]: Loaded 1866 advancements
+[11:49:28] [Server thread/INFO]: Starting minecraft server version 26.3
+[11:49:28] [Server thread/WARN]: ****************************
+[11:49:28] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[11:49:28] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[11:49:28] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[11:49:28] [Server thread/WARN]: ****************************
+[11:49:28] [Server thread/INFO]: Loading properties
+[11:49:28] [Server thread/INFO]: This server is running Purpur version 26.3-2660-HEAD@a040e50 (2026-11-18T23:30:22Z) (Implementing API version 26.3.build.2660-stable)
+[11:49:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:49:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:49:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:49:29] [Paper FMA initialiser/INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true as determined by performance comparison test
+[11:49:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[11:49:29] [Server thread/INFO]: Default game type: SURVIVAL
+[11:49:29] [Server thread/INFO]: Generating keypair
+[11:49:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:49:29] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:49:29] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:49:30] [Server thread/INFO]: [CraftEngine] Loading server plugin CraftEngine v26.9.2
+[11:49:30] [Server thread/INFO]: [net.momirealms.craftengine.libraries.hikari.HikariDataSource] craftengine-storage - Starting...
+[11:49:30] [Server thread/INFO]: [net.momirealms.craftengine.libraries.hikari.pool.HikariPool] craftengine-storage - Added connection org.sqlite.jdbc4.JDBC4Connection@311614ba
+[11:49:30] [Server thread/INFO]: [net.momirealms.craftengine.libraries.hikari.HikariDataSource] craftengine-storage - Start completed.
+[11:49:30] [Server thread/INFO]: [net.momirealms.craftengine.libraries.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:******** (SQLite 3.49)
+[11:49:31] [Server thread/INFO]: [net.momirealms.craftengine.libraries.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.029s)
+[11:49:31] [Server thread/INFO]: [net.momirealms.craftengine.libraries.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[11:49:31] [Server thread/INFO]: [net.momirealms.craftengine.libraries.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[11:49:32] [Server thread/INFO]: [CraftEngine] Enabling CraftEngine v26.9.2
+[11:49:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:49:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:49:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:49:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:49:32] [Server thread/INFO]: Preparing level "world"
+[11:49:33] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[11:49:33] [Server thread/INFO]: Preparing spawn area: 100%
+[11:49:33] [Server thread/INFO]: Prepared spawn area in 4 ms
+[11:49:33] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[11:49:33] [Server thread/INFO]: Prepared spawn area in 1 ms
+[11:49:33] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[11:49:33] [Server thread/INFO]: Prepared spawn area in 0 ms
+[11:49:33] [Server thread/INFO]: Done preparing level "world" (0.987s)
+[11:49:34] [Server thread/INFO]: [spark] Starting background profiler...
+[11:49:34] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:49:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:49:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:49:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:49:34] [Server thread/INFO]: Running delayed init tasks
+[11:49:34] [Server thread/WARN]: [CraftEngine] translations/ru_ru.yml not exists, using en.yml as default locale.
+[11:49:35] [Server thread/INFO]: [CraftEngine] Loaded pack: default_assets. Default namespace: default
+[11:49:35] [Server thread/INFO]: [CraftEngine] Loaded pack: default_feature_populator. Default namespace: default
+[11:49:35] [Server thread/INFO]: [CraftEngine] Loaded pack: default_templates. Default namespace: default
+[11:49:35] [Server thread/INFO]: [CraftEngine] Loaded pack: internal. Default namespace: internal
+[11:49:35] [Server thread/INFO]: [CraftEngine] Loaded pack: legacy_armor. Default namespace: minecraft
+[11:49:35] [Server thread/INFO]: [CraftEngine] Loaded pack: remove_shulker_head. Default namespace: minecraft
+[11:49:35] [craft-engine-common-worker-6/INFO]: [CraftEngine] Loaded templates in 107,91ms (75)
+[11:49:35] [craft-engine-common-worker-6/INFO]: [CraftEngine] Loaded config factories in 48,93ms (3)
+[11:49:35] [craft-engine-common-worker-5/INFO]: [CraftEngine] Loaded translations in 9,75ms (127)
+[11:49:35] [craft-engine-common-worker-1/INFO]: [CraftEngine] Loaded equipments in 33,32ms (2)
+[11:49:35] [craft-engine-common-worker-3/INFO]: [CraftEngine] Loaded images in 71,94ms (55)
+[11:49:35] [craft-engine-common-worker-3/INFO]: [CraftEngine] Loaded emojis in 9,00ms (16)
+[11:49:35] [craft-engine-common-worker-5/INFO]: [CraftEngine] Loaded lang in 54,03ms (630)
+[11:49:35] [craft-engine-common-worker-2/INFO]: [CraftEngine] Loaded loot sources in 240,16ms (1)
+[11:49:35] [craft-engine-common-worker-1/INFO]: [CraftEngine] Loaded items in 254,01ms (109)
+[11:49:35] [craft-engine-common-worker-6/INFO]: [CraftEngine] Loaded block state mappings in 300,50ms (4280)
+[11:49:35] [craft-engine-common-worker-7/INFO]: [CraftEngine] Loaded categories in 11,43ms (5)
+[11:49:35] [craft-engine-common-worker-1/INFO]: [CraftEngine] Loaded furniture in 61,66ms (6)
+[11:49:36] [craft-engine-common-worker-6/INFO]: [CraftEngine] Loaded blocks in 183,47ms (40)
+[11:49:36] [craft-engine-common-worker-6/INFO]: [CraftEngine] Loaded configured features in 19,24ms (1)
+[11:49:36] [craft-engine-common-worker-2/INFO]: [CraftEngine] Loaded recipes in 427,29ms (45)
+[11:49:36] [Server thread/INFO]: Done (24.382s)! For help, type "help"
+[11:49:37] [craft-engine-common-worker-2/INFO]: [CraftEngine] You're running the latest version
+[11:52:19] [User Authenticator #0/INFO]: UUID of player asas2345 is b254ccde-c4bc-329e-9ed6-c9b4a46be7a2
+[11:52:24] [Server thread/INFO]: System chat: asas2345 joined the game
+[11:52:24] [Server thread/INFO]: asas2345[/127.0.0.1:62269] logged in with entity id 471 at ([minecraft:overworld]295.2542429783764, 93.0, 321.3358838188272)
+[11:52:25] [Server thread/WARN]: asas2345 moved too quickly! 295.2542429783764,93.0,321.3358838188272
+[11:52:32] [Server thread/INFO]: System chat: [asas2345: Set own game mode to Creative Mode]
