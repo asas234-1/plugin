@@ -31,7 +31,7 @@ host:
   #
   #   none       Not served. The packs are still built, into the output
   #              folder, for you to host somewhere yourself.
-  mode: upload
+  mode: same-port
 
   # own-port or upload fallback. The port to listen on. 0 picks a free one,
   # which is fine for testing and no use in production because the address
